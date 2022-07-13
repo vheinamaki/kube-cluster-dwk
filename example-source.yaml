@@ -7,4 +7,4 @@ spec:
   interval: 10m
   url: https://github.com/kubernetes-hy/material-example
   ref:
-    branch: main
+    branch: master

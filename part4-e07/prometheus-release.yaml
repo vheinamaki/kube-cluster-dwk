@@ -10,5 +10,5 @@ spec:
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
-        name: prometheus
+        name: prometheus-community
   interval: 1m0s

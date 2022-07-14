@@ -4,6 +4,7 @@ metadata:
   name: argo-rollouts
   namespace: flux-system
 spec:
+  targetNamespace: flux-system
   interval: 1h0m0s
   path: ./manifests/cluster-install
   prune: true

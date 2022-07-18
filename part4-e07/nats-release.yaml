@@ -2,7 +2,7 @@ apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
   name: my-nats
-  namespace: flux-system
+  namespace: todoproject-namespace
 spec:
   chart:
     spec:
